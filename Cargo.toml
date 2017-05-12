@@ -9,7 +9,7 @@ license = "Apache-2.0"
 
 [dependencies]
 reqwest = "0.4.0"
-slack_api = { version = "0.16.1", features = ["reqwest"] }
+slack_api = { git = "https://github.com/bwasty/slack-rs-api.git", branch = "fix_reaction_message" }
 serde = "0.9"
 serde_json = "0.9"
 serde_derive = "0.9"
